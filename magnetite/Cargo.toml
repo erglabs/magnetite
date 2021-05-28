@@ -1,0 +1,11 @@
+[package]
+name = "magnetite"
+version = "0.1.0"
+authors = ["Mateusz Matejuk (esavier) <esavier@erglabs.org>", "Sam Mohr <sam@mohr.codes>"]
+edition = "2018"
+
+[dependencies]
+tracing = "0.1"
+futures = "*"
+bytes = "*"
+tokio = { version = "1", features = ["io-util", "io-std", "macros", "rt", "rt-multi-thread"] }
